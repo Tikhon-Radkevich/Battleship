@@ -2,7 +2,7 @@ from aiogram import Router, Bot
 from aiogram.types import CallbackQuery
 from aiogram.dispatcher.filters import Text
 
-from game.game import Lobby, BattleshipConstructor, BattleshipGame
+from src.game.game import Lobby, BattleshipConstructor, BattleshipGame
 
 
 router = Router()

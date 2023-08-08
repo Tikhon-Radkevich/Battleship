@@ -2,11 +2,11 @@ import logging
 
 from random import sample, choice
 
-from game.game_errors import ConstructorErrors, GameErrors
-from keyboards.constructor import get_constructor_keyboard
-from keyboards.game import get_field_keyboard, get_radar_keyboard
-from keyboards.general import get_invite_keyboard
-from game.battleship import Field
+from src.game.game_errors import ConstructorErrors, GameErrors
+from src.keyboards.constructor import get_constructor_keyboard
+from src.keyboards.game import get_field_keyboard, get_radar_keyboard
+from src.keyboards.general import get_invite_keyboard
+from src.game.battleship import Field
 
 
 class Player:

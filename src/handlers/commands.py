@@ -2,7 +2,7 @@ from aiogram import Router, Bot
 from aiogram.dispatcher.filters.command import Command
 from aiogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery, BotCommand
 
-from game.game import Lobby, Player
+from src.game.game import Lobby, Player
 
 router = Router()
 

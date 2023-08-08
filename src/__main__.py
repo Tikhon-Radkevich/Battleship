@@ -5,12 +5,12 @@ from aiogram import Bot, Dispatcher
 from aiogram.dispatcher.fsm.storage.memory import MemoryStorage
 
 from config import Settings
-from handlers import callbacks, commands, inline
+from src.handlers import commands, callbacks, inline
 
 
 async def main():
     logging.basicConfig(
-        filename="../debug.log",
+        filename="../../debug.log",
         level=logging.WARNING,
         format="%(asctime)s - %(levelname)s - %(name)s - %(message)s",
     )
