@@ -1,4 +1,4 @@
-from src.game.game_errors import ConstructorErrors, GameErrors
+from game.game_errors import ConstructorErrors, GameErrors
 
 
 class Ship:

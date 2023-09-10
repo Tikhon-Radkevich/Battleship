@@ -1,7 +1,7 @@
 from aiogram import Router
 from aiogram.types import InlineQuery, InlineKeyboardMarkup, InlineKeyboardButton, InlineQueryResultArticle, InputTextMessageContent
 
-from src.game.game import Lobby
+from game.game import Lobby
 
 
 router = Router()
